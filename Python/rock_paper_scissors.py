@@ -7,7 +7,7 @@ options = ['rock', 'paper', 'scissors']
 
 
 while True:
-    user_input = input('Lets play rock paper scissors or Q to quit>').lower()
+    user_input = input('Lets play rock paper scissors or Q to quit> ').lower()
     if user_input == 'q':
         break
     

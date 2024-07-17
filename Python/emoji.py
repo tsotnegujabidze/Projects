@@ -1,5 +1,5 @@
-message = input('Whats up?>')
-words = message.split(' ')
+message = input('Which emoji would you like to convert>')
+words = message.split()
 emojis = {
     ':)': '😊',
     ':(': '🙁',

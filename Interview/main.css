@@ -1,0 +1,43 @@
+body {
+    background-image: url(image.png);
+}
+
+fieldset {
+    text-align: center;
+}
+
+input {
+    background: transparent;
+}
+
+textarea {
+    background: transparent;
+}
+
+select {
+    background: transparent;
+    border: hidden;
+}
+
+button {
+    background: transparent;
+    text-align: center;
+    text-align: center;
+    border: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+#submit {
+    position: absolute;
+    left: 50%;
+}
+
+::placeholder {
+    color: black;
+}
