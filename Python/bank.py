@@ -4,7 +4,7 @@ def show_balance():
 def cash_in():
     amount = float(input("Enter an amount to cash in> "))
     if amount < 0:
-        print("That's not a valid amount!")
+        print("That's invalid amount!")
         return 0
     else:
         return amount
