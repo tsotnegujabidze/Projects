@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="SignIn.css">
+        <title>GOA DataBase Sign in</title>
+    </head>
+    <body>
+        <h1>GOA DataBase Sign in</h1>
+        <form action="/GOA_DataBase/MainPage/MainPage.html">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="role">Role:</label>
+            <select id="role" name="role">
+                <option value="viewer">viewer</option>
+                <option value="moderator">moderator</option>
+            </select>
+            <button type="submit">Sign in</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: crimson;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 100px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 20px;
+    background-color: rgb(255, 185, 119);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+input[type="search"] {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+input[type="search"]:focus {
+    border-color: #666;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}

@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(174, 184, 192);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 150px;
+    height: 300px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+
+.green {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(16, 211, 16);
+    position: relative;
+    margin-left: 15px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 50px;
+}
+
+.yellow {
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 50px;
+}
+
+.red {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 50px;
+}
+
+.timer {
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    position: absolute;
+    left: 95px;
+    top: 80px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+}
+
+.btn {
+    height: 30px;
+    width: 50px;
+    background-color: grey;
+    position: absolute;
+    left: 95px;
+    top: 40px;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+}
+
+#button {
+    border: none;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(148, 148, 148);
+}
+
+.btn:active {
+    background-color: rgb(175, 174, 174);
+}

@@ -1,0 +1,147 @@
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 18%, 87%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+.container {
+    width: 500px;
+    height: 1450px;
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 20px;
+}
+
+.image {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img {
+    border-radius: 10px;
+    width: 450px;
+    height: 200px;
+}
+
+.text h1 {
+    margin-left: 10px;
+    text-decoration: bold;
+}
+
+
+.text p {
+    margin-left: 8px;
+    font-size: small;
+}
+
+.prep {
+    width: 460px;
+    height: 200px;
+    background-color: hsl(330, 100%, 98%);
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.prep p {
+    color: hsl(332, 51%, 32%);
+    font-size: large;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.prep ul li {
+    margin-bottom: 15px;
+}
+
+#Ing {
+    color: hsl(332, 51%, 32%);
+    font-size: x-large;
+    padding: 10px;
+    font-weight: bold;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+hr {
+    margin: 0px 20px;
+    border: hsl(30, 12%, 80%) solid 1px;
+}
+
+
+#Ins {
+    color: hsl(332, 51%, 32%);
+    font-size: x-large;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+ol li {
+    font-size: small;
+}
+
+ol li {
+    margin-bottom: 15px;
+}
+
+
+table {
+    width: 600px;
+    margin-left: 40px;
+}
+
+tr td {
+    margin-bottom: 15px;
+}
+
+.d {
+    color: hsl(332, 51%, 32%);
+}
+
+#nut {
+    color: hsl(332, 51%, 32%);
+    font-size: x-large;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#bel {
+    padding-left: 20px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    width: 700px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.hr {
+    margin: 0px 20px;
+    border: hsl(30, 12%, 80%) solid 1px;
+}

@@ -1,0 +1,146 @@
+body {
+    background: url(image\ copy\ 6.png  ) fixed center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+* {
+    color: white;
+}
+
+#h1 {
+    text-align: center;
+}
+
+#h2 {
+    text-align: center;
+}
+
+hr {
+    border-color: black;
+}
+
+header {
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #bbb 1px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+
+legend {
+    text-align: center;
+}
+fieldset, p {
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+
+fieldset {
+    border: solid 2px rgb(121, 121, 121);
+    height: 200px;
+    padding: 30px 0px 50px 0px;
+}
+
+section {
+    margin: 50px;
+}
+
+#Cars1, fieldset {
+    padding-bottom: 200px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 400px;
+    height: 200px; 
+    border-radius: 10px; 
+    margin: 30px;
+}
+
+.image {
+    width: 300px; 
+    border-radius: 10px; 
+    margin: 10px;
+    transition: transform 0.4s;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+  
+nav a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #333;
+    transition: width 0.4s ease;
+}
+  
+nav a:hover:after {
+    width: 100%;
+}
+
+.images1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.images1 img {
+    width: 60px; 
+    border-radius: 10px; 
+    margin: 30px;
+}
+
+.images2 {
+    width: 300px; 
+    border-radius: 10px; 
+    margin: 10px;
+    transition: transform 0.4s;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+b {
+    padding: 0px 20px;
+}
+
