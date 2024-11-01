@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+h2{
+    margin: 10px;
+}
+
+#emojiDisplay {
+    font-size: 48px;
+    margin: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: rgb(220, 218, 218);
+}
+
+button:active {
+    background-color: rgb(238, 237, 237);
+}

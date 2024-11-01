@@ -11,7 +11,7 @@ def cash_in():
 
 def withdraw():
     amount = float(input("Enter amount to be withdrawn> "))
-
+    
     if amount > balance:
         print("You do not have that much in your acocunt!")
         return 0
