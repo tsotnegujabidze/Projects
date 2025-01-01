@@ -15,17 +15,22 @@ h2{
 }
 
 button {
-    margin: 5px;
+    margin: 15px;
     padding: 20px;
     font-size: 20px;
     border: none;
     border-radius: 20px;
+    background-color: rgb(111, 103, 103);
 }
 
 button:hover {
-    background-color: rgb(220, 218, 218);
+    background-color: rgb(134, 122, 122);
 }
 
 button:active {
-    background-color: rgb(238, 237, 237);
+    background-color: rgb(177, 163, 163);
+}
+
+* {
+    background-color: rgb(56, 52, 52);
 }
