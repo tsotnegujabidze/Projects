@@ -12,3 +12,4 @@ function convertCurrency() {
 
     document.getElementById('exchangeRateResult').textContent = `${usdAmount} USD = ${eurAmount.toFixed(2)} EUR`
 }
+
