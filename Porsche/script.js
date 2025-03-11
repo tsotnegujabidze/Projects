@@ -9,3 +9,4 @@ images.forEach(image => {
         image.style.transform = 'scale(1)';
     });
 });
+
